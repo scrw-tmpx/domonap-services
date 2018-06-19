@@ -1,0 +1,183 @@
+body, html {
+    font-family: Roboto,sans-serif!important;
+}
+
+/*Верхняя часть*/
+
+.main-wrap-support h1 {
+    margin-top    : 30px;
+    margin-bottom : 30px;
+    padding-left  : 10px;
+    padding-right : 10px;
+    padding-top   : 18px;
+    padding-bottom: 18px;
+    background    : #205b98;
+    display       : inline-block;
+    font-size     : 30px;
+    color         : #fff;
+}
+
+.main-wrap-support {
+    background: #f3f8fd;
+}
+
+.link-back a {
+    background     : #e8edf2;
+    padding-left   : 37px;
+    padding-right  : 20px;
+    padding-bottom : 18px;
+
+    padding-top      : 18px;
+    background-image : url(./images/arrow.png);
+    background-repeat: no-repeat;
+
+    background-position-x: 18px;
+    background-position-y: center;
+
+    font-size: 18px;
+    color    : #333333;
+}
+
+.link-back {
+    text-align   : left;
+    margin-top   : 46px;
+}
+/*Баннер*/
+.bg-support {
+    background  : #205b98;
+    margin-top  : 50px;
+}
+.support-cost, .support-desc {
+    font-size   : 24px;
+    color       : #fff;
+    padding-left: 40px;
+}
+
+.support-desc {
+    padding-top: 110px;
+}
+
+.cost {
+    font-size   : 36px;
+    padding-left: 20px;
+}
+
+.wrap-head {
+    text-align: center;
+}
+
+.support-cost {
+    font-weight: 500;
+    padding-top: 50px;
+}
+
+/*Изображение в баннере*/
+.img-container {
+    background           : url(./images/man.png);
+    background-size      : contain;
+    background-repeat    : no-repeat;
+    background-position-x: center;
+    margin-top           : 20px;
+    height               : 465px;
+}
+
+/*Текст под баннером*/
+.work-desc {
+    padding-top: 30px;
+}
+
+.work-desc-next {
+    padding-bottom: 30px;
+    padding-top: 20px;
+}
+
+/*Списки внутри блоков*/
+li {
+    padding-bottom: 4px;
+}
+
+/*Верхушка у блоков*/
+.support-head {
+    background-color: #f3f8fd;
+    border          : 1px solid #e4ebf2;
+}
+
+/*Нижняя часть блоков*/
+.support-body {
+    border-left   : 1px solid #e4ebf2;
+    border-right  : 1px solid #e4ebf2;
+    border-bottom : 1px solid #e4ebf2;
+}
+
+/*Текст внутри блоков*/
+.support-name {
+    padding-left  : 29px;
+    padding-right : 30px;
+    padding-top   : 26px;
+    padding-bottom: 27px;
+    font-size     : 24px;
+    font-family   : Roboto,sans-serif!;
+    color         : #464c55;
+}
+
+.support-list {
+    font-size   : 14px;
+    padding-left: 40px;
+    padding-top : 20px;
+    padding-bottom: 20px;
+}
+
+/*Левый верхний блок*/
+.wrap-support-left {
+    margin-left: -15px;
+}
+
+.wrap-support-left .support-body {
+    margin-bottom : 25px;
+}
+
+/*Правый верхний блок*/
+.wrap-support-right {
+    margin-right: -15px;
+}
+
+/*Правый нижний блок*/
+.wrap-support-right-down {
+    margin-right: -15px;
+    border-top: 1px solid #e4ebf2;
+}
+
+.optimal-price {
+    color      : #3c434d;
+    font-size  : 36px;
+    text-align : center;
+    font-weight: 500;
+    padding-top: 20px;
+}
+
+.wrap-support-right-down .support-body {
+    text-align      : center;
+    padding-top     : 100px;
+    background-color: #f3f8fd;
+    height          : 413px;
+}
+
+/*Кнопка "Заказать в правом нижнем блоке"*/
+.support-link {
+    text-align    : center;
+    padding-top   : 14px;
+/*    padding-bottom: 40px;*/
+}
+
+.support-link a {
+    background    : #fbd302;
+    color         : #333;
+    text-align    : center;
+    padding-top   : 18px;
+    padding-right : 70px;
+    padding-bottom: 18px;
+    padding-left  : 70px;
+    font-size     : 18px;
+    font-weight   : 400;
+}
+
